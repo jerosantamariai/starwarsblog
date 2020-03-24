@@ -1,17 +1,36 @@
+/* 
+Actualizacion 1.0: 24/03/2020
+
+Realización del archivo, formato header
+
+De lo realizado me falta:
+
+A) Del header: 
+  1. Dejarlo fijado arriba sin que el div siguiente se ponga detras de el,
+  2. Letras del RightSide>Search en color rgb(170,170,170) y poner bien la lupa sin el corte,
+  3. Borde superior del navbar que use la totalidad del width 
+  
+*/
+
 body {
   background: url(https://i.pinimg.com/originals/22/2a/03/222a0332bd69330e9ac4109495a420ca.jpg) no-repeat center fixed !important;
   min-height:100%;
   background-size: cover;
+  
 }
 
 /*COMIENZA EL HEADER*/
 
 .header{
   background-color: rgba(0, 0, 0, 0.85);
-  width: auto;
+  width: 100%;
   height: 180px;
   align-content: center;
+  /* position: fixed; */
+  
 }
+
+/* Left side */
 
 .socialmedia {
   display: inline-flex;
@@ -35,12 +54,16 @@ body {
   margin-top: 20px;
 }
 
+/* Medium side */
+
 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 60%;
 }
+
+/* Left Side */
 
 #search {
   /* color: white !important; */
@@ -50,11 +73,29 @@ img {
 #search input {
   background-color: white;
   border-color: white;
-  opacity: 0.2;
+  opacity: 0.3;
   
   
 }
 
+.userpath{
+  color: rgb(120,120,120);
+  text-align: right;
+}
+
+.login {
+  text-decoration: none !important;
+  color: rgb(170,170,170);
+}
+
+.signup {
+  text-decoration: none !important;
+  color: rgb(170,170,170);
+}
+.userpath a:hover{
+  
+  color: rgb(220,220,220);
+}
 .inputsearch::placeholder {
   color: red;
 }
@@ -62,8 +103,10 @@ img {
 .input-group-text{
   background-color: white;
   border-color: none;
-  opacity: 0.2;
+  opacity: 0.3;
 }
+
+/* Navbar */
 
 .navbar #centerbar {
   width: 100%;
@@ -96,30 +139,36 @@ img {
   border-width: 1px 0 0 0; 
 }
 
-.userpath{
-  color: rgb(120,120,120);
-  text-align: right;
-}
 
-.login {
-  text-decoration: none !important;
-  color: rgb(170,170,170);
-}
-
-.signup {
-  text-decoration: none !important;
-  color: rgb(170,170,170);
-}
-.userpath a:hover{
-  
-  color: rgb(220,220,220);
-}
 
 /*TERMINA EL HEADER*/
 
 .info {
     background-color: rgba(20, 20, 20, 0.9);
     width: auto;
-    height: 620px;
+    height: 2000px;
     align-content: center;
+    
+    
+}
+
+.databanksearch  {
+  padding: 30px 0px;
+  
+}
+
+.databanksearch .form-control{
+  background-color: white;
+  border-color: white;
+  opacity: 0.2;
+  
+}
+
+.firsttitle {
+  color: white;
+  padding-left: 130px;
+}
+
+.bloginfo .card{
+  width: 80%;
 }
