@@ -1,13 +1,125 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background: url(https://i.pinimg.com/originals/22/2a/03/222a0332bd69330e9ac4109495a420ca.jpg) no-repeat center fixed !important;
+  min-height:100%;
+  background-size: cover;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/*COMIENZA EL HEADER*/
+
+.header{
+  background-color: rgba(0, 0, 0, 0.85);
+  width: auto;
+  height: 180px;
+  align-content: center;
+}
+
+.socialmedia {
+  display: inline-flex;
+  text-decoration: none !important;
+}
+
+.socialmedia i{
+  
+  color: rgb(170,170,170);
+  padding: 0 0 0 25px;
+  font-size: 25px;
+  margin-top: 20px;
+  
+}
+
+.socialmedia i:hover{
+  
+  color: rgb(220,220,220);
+  padding: 0 0 0 25px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+#search {
+  /* color: white !important; */
+  margin-top: 20px;
+}
+
+#search input {
+  background-color: white;
+  border-color: white;
+  opacity: 0.2;
+  
+  
+}
+
+.inputsearch::placeholder {
+  color: red;
+}
+
+.input-group-text{
+  background-color: white;
+  border-color: none;
+  opacity: 0.2;
+}
+
+.navbar #centerbar {
+  width: 100%;
+  display: flex;
+}
+
+.nav {
+  margin: 10px 0px;
+}
+
+.nav-link {
+  color: rgb(170,170,170);
+  align-content: center;
+  border-width: 1px 1px 0 0;
+  border-color: rgb(170,170,170);
+  border-style: solid;
+  padding: 10px 30px;
+}
+
+.nav-link:hover {
+  color: white;
+  align-content: center;
+  border-width: 1px 1px 0 0;
+  border-color: rgb(170,170,170);
+  border-style: solid;
+  padding: 10px 30px;
+}
+
+.nav-link:last-child { 
+  border-width: 1px 0 0 0; 
+}
+
+.userpath{
+  color: rgb(120,120,120);
+  text-align: right;
+}
+
+.login {
+  text-decoration: none !important;
+  color: rgb(170,170,170);
+}
+
+.signup {
+  text-decoration: none !important;
+  color: rgb(170,170,170);
+}
+.userpath a:hover{
+  
+  color: rgb(220,220,220);
+}
+
+/*TERMINA EL HEADER*/
+
+.info {
+    background-color: rgba(20, 20, 20, 0.9);
+    width: auto;
+    height: 620px;
+    align-content: center;
 }
