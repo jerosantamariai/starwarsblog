@@ -16,7 +16,6 @@ body {
   background: url(https://i.pinimg.com/originals/22/2a/03/222a0332bd69330e9ac4109495a420ca.jpg) no-repeat center fixed !important;
   min-height:100%;
   background-size: cover;
-  
 }
 
 /*COMIENZA EL HEADER*/
@@ -27,7 +26,6 @@ body {
   height: 180px;
   align-content: center;
   /* position: fixed; */
-  
 }
 
 /* Left side */
@@ -74,8 +72,6 @@ img {
   background-color: white;
   border-color: white;
   opacity: 0.3;
-  
-  
 }
 
 .userpath{
@@ -143,25 +139,24 @@ img {
 
 /*TERMINA EL HEADER*/
 
-.info {
+/* AQUI EMPIEZA EL INFOSEARCH */
+
+
+.infosearch {
     background-color: rgba(20, 20, 20, 0.9);
     width: auto;
     height: 2000px;
     align-content: center;
-    
-    
 }
 
 .databanksearch  {
   padding: 30px 0px;
-  
 }
 
 .databanksearch .form-control{
   background-color: white;
   border-color: white;
   opacity: 0.2;
-  
 }
 
 .firsttitle {
@@ -169,6 +164,17 @@ img {
   padding-left: 130px;
 }
 
+/* AQUI TERMINA EL INFOSEARCH */
+
+/* AQUI EMPIEZA EL BLOGINFO */
+
 .bloginfo .card{
   width: 80%;
 }
+
+
+
+
+
+
+/* AQUI TERMINA EL BLOGINFO */
