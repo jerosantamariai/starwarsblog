@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from "react-router-dom";
 
 const Header = props => {
     return (
@@ -7,11 +8,11 @@ const Header = props => {
                 <div className="container">
                     <div className="row" id="social">
                         <div className="col-4 col-offset-4">
-                            <a className="socialmedia" href="http://www.facebook.com/"><i className="fa fa-facebook"></i></a>
-                            <a className="socialmedia" href="http://www.instagram.com/"><i className="fa fa-instagram"></i></a>
-                            <a className="socialmedia" href="http://www.tumblr.com/"><i className="fa fa-tumblr"></i></a>
-                            <a className="socialmedia" href="http://www.twitter.com/"><i className="fa fa-twitter"></i></a>
-                            <a className="socialmedia" href="http://www.youtube.com/"><i className="fa fa-youtube"></i></a>
+                            <Link className="socialmedia" to="http://www.facebook.com/"><i className="fa fa-facebook"></i></Link>
+                            <Link className="socialmedia" to="http://www.instagram.com/"><i className="fa fa-instagram"></i></Link>
+                            <Link className="socialmedia" to="http://www.tumblr.com/"><i className="fa fa-tumblr"></i></Link>
+                            <Link className="socialmedia" to="http://www.twitter.com/"><i className="fa fa-twitter"></i></Link>
+                            <Link className="socialmedia" to="http://www.youtube.com/"><i className="fa fa-youtube"></i></Link>
                         </div>
                         <div className="col-4">
                             <img src="https://img.pngio.com/new-star-wars-characters-trilogy-in-development-star-wars-characters-png-black-and-white-810_455.jpg" alt="stlogo" />
@@ -31,7 +32,7 @@ const Header = props => {
                             <div className="row">
                                 <div className="col-6"></div>
                                 <div className="col-6">
-                                    <p className="userpath"><a className="login" href="/#">LOG IN</a>      /    /       <a className="signup" href="/#">SIGN UP</a></p>
+                                    <p className="userpath"><Link className="login" to="/#">LOG IN</Link>      /    /       <Link className="signup" to="/#">SIGN UP</Link></p>
                                 </div>
                             </div>
                         </div>
@@ -41,13 +42,14 @@ const Header = props => {
                     <div className="row" id="centerbar">
                         <div className="col-12 d-flex justify-content-center">
                             <nav className="nav">
-                                <a className="nav-link" href="/#">PEOPLE</a>
-                                <a className="nav-link" href="/#">VEHICLES</a>
-                                <a className="nav-link" href="/#">PLANETS</a>
-                                {/* <a className="nav-link" href="/#">SERIE</a>
-                                <a className="nav-link" href="/#">INTERACTIVE</a>
-                                <a className="nav-link" href="/#">COMMUNITY</a>
-                                <a className="nav-link" href="/#">DATABANK</a> */}
+                                <Link className="nav-link" to="/">HOME</Link>
+                                <Link className="nav-link" to="/people">PEOPLE</Link>
+                                <Link className="nav-link" to="/vehicles">VEHICLES</Link>
+                                <Link className="nav-link" to="/planets">PLANETS</Link>
+                                {/* <a className="nav-link" to="/#">SERIE</a>
+                                <a className="nav-link" to="/#">INTERACTIVE</a>
+                                <a className="nav-link" to="/#">COMMUNITY</a>
+                                <a className="nav-link" to="/#">DATABANK</a> */}
                             </nav>
                         </div>
                     </div>

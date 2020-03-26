@@ -1,15 +1,12 @@
 const getState = ({getStore, getActions, setStore}) => {
     return {
         store: {
-            films: null
+            people: null,
+            planets: null,
+            vehicles: null,
         },
         actions: {
-            setName: e => {
-                setStore({
-                    name: e.target.value
-                })
-            },
-            getFilms: url => {
+            getPeople: url => {
                 fetch(url, {
                     method: 'GET',
                     headers: {
@@ -19,7 +16,41 @@ const getState = ({getStore, getActions, setStore}) => {
                     .then(resp => resp.json())
                     .then(data => {
                         setStore({
-                            films: data
+                            people: data
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+            },
+            getPlanets: url => {
+                fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'content-type': 'application/json'
+                    }
+                })
+                    .then(resp => resp.json())
+                    .then(data => {
+                        setStore({
+                            planets: data
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+            },
+            getVehicles: url => {
+                fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'content-type': 'application/json'
+                    }
+                })
+                    .then(resp => resp.json())
+                    .then(data => {
+                        setStore({
+                            vehicles: data
                         });
                     })
                     .catch(error => {
