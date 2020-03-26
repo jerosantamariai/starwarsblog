@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from '../store/appContext';
+import { Link } from 'react-router-dom';
 
 
 const People = props => {
@@ -23,6 +24,7 @@ const People = props => {
                                                 <h5 className="card-title">{character.name}</h5>
                                                 <p className="card-text">Eye Color: {character.eye_color}</p>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                <Link to={"/people/" + character.name} className="btn btn-secondary">Go to...></Link>
                                             </div>
                                         </div>
                                     )

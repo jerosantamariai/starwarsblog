@@ -31,11 +31,11 @@ const Vehicles = props => {
                                                     <h5 className="card-title">{transport.name}</h5>
                                                     <p className="card-text">Model: {transport.model}</p>
                                                     <p>Observations: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                                                    <Link to={"/vehicles/"+transport.name} className="btn btn-primary">Go to...></Link>
+                                                    <Link to={"/vehicles/" + transport.name} className="btn btn-secondary">Go to...></Link>
                                                 </div>
                                             </div>
                                         </>
-                                        
+
                                     )
                                 })
                                 : (

@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from '../store/appContext';
+import { Link } from 'react-router-dom';
 
 
 const Planets = props => {
@@ -15,13 +16,14 @@ const Planets = props => {
                                 store.planets.results.map((star, i) => {
                                     const img = star.name.split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
-                                        < div className="card text-white bg-dark col-3 mb-3" key={i}>
+                                        < div className="card text-white bg-dark col-3 mb-3" id="cardoverlay" key={i}>
                                             <img src={"img/planets/" + img} className="card-img-top" alt={"image of " + img} />
                                             {/* <a classNam="text" id="overlay">GO!</a> */}
                                             <div className="card-body">
                                                 <h5 className="card-title">{star.name}</h5>
                                                 <p className="card-text">Climate: {star.climate}</p>
                                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                <Link to={"/planets/" + star.name} className="btn btn-secondary">Go to...></Link>
                                             </div>
                                         </div>
                                     )

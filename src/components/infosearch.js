@@ -16,7 +16,7 @@ const InfoSearch = props => {
                     </div>
                 </div>
                 <hr width="1050px" height="5px" color="gray"></hr>
-                <h6 className="firsttitle">STAR WARS: THE RISE OF SKYWALKER //</h6>
+                <h6 className="firsttitle">STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS //</h6>
                 <hr width="1050px" height="5px" color="gray"></hr>
         </>
     )
