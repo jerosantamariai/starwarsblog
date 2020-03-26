@@ -16,7 +16,7 @@ const InfoSearch = props => {
                     </div>
                 </div>
                 <hr width="1050px" height="5px" color="gray"></hr>
-                <h6 className="firsttitle">STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS //</h6>
+                <marquee className="firsttitle">STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS - STAR WARS </marquee>
                 <hr width="1050px" height="5px" color="gray"></hr>
         </>
     )
