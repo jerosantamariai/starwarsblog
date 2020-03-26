@@ -5,8 +5,8 @@ import injectContext from './store/appContext';
 import Header from './components/header';
 import InfoSearch from './components/infosearch';
 import People from './views/people';
-// import Vehicles from './components/view/vehicles';
-// import Planets from './components/view/planets';
+import Vehicles from './views/vehicles';
+import Planets from './views/planets';
 
 
 const App = props => {
@@ -19,8 +19,8 @@ const App = props => {
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/people" component={People} />
-                    {/* <Route exact path="/vehicles" component={Vehicles} />
-                    <Route exact path="/planets" component={Planets} />   */}
+                    <Route exact path="/vehicles" component={Vehicles} />
+                    <Route exact path="/planets" component={Planets} />  
                 
 
 
