@@ -1,5 +1,6 @@
 /* 
 Actualizacion 1.0: 24/03/2020
+Actualizacion 2.0: 25/03/2020 - formato links, se elimina "bloginfo" y subida de fotos sin estilo
 
 Realización del archivo, formato header
 
@@ -16,6 +17,7 @@ body {
   background: url(https://i.pinimg.com/originals/22/2a/03/222a0332bd69330e9ac4109495a420ca.jpg) no-repeat center fixed !important;
   min-height:100%;
   background-size: cover;
+  background-color: black;
 }
 
 /*COMIENZA EL HEADER*/
@@ -165,16 +167,3 @@ img {
 }
 
 /* AQUI TERMINA EL INFOSEARCH */
-
-/* AQUI EMPIEZA EL BLOGINFO */
-
-.bloginfo .card{
-  width: 80%;
-}
-
-
-
-
-
-
-/* AQUI TERMINA EL BLOGINFO */
