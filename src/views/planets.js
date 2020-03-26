@@ -7,31 +7,32 @@ const Planets = props => {
     const { planets } = store;
     return (
         <>
-
             <div className="container">
-                <div className="row">
+                <div class="card-group">
                     <div className="row">
                         {
                             !!store.planets ?
                                 store.planets.results.map((star, i) => {
-                                    const img = star.name.split(" ").join("-").toLowerCase()+".jpg";
+                                    const img = star.name.split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
-                                        < div className="card text-white bg-dark" key={i}>
-                                            <img src={"img/planets/"+img} className="card-img-top" alt={"image of "+img} />
+                                        < div className="card text-white bg-dark col-3 mb-3" key={i}>
+                                            <img src={"img/planets/" + img} className="card-img-top" alt={"image of " + img} />
+                                            {/* <a classNam="text" id="overlay">GO!</a> */}
                                             <div className="card-body">
                                                 <h5 className="card-title">{star.name}</h5>
                                                 <p className="card-text">Climate: {star.climate}</p>
+                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
                                             </div>
                                         </div>
                                     )
                                 })
-                                :(
-                                <div className="spinner-border" role="status">
-                                    <span className="sr-only">Loading...</span>
-                                </div>
+                                : (
+                                    <div class="text-center" id="undefined">
+                                        <div className="spinner-grow text-light" role="status">
+                                        </div>
+                                    </div>
                                 )
                         }
-
                     </div>
                 </div>
             </div>

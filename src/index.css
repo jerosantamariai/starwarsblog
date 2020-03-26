@@ -17,7 +17,16 @@ body {
   background: url(https://i.pinimg.com/originals/22/2a/03/222a0332bd69330e9ac4109495a420ca.jpg) no-repeat center fixed !important;
   min-height:100%;
   background-size: cover;
-  background-color: black;
+  background-color: black !important;
+}
+
+#undefined{
+  background-color: rgba(20, 20, 20, 0.2);
+  width: auto;
+  height: 800px;
+  align-content: center;
+  color: white;
+  text-align: center;
 }
 
 /*COMIENZA EL HEADER*/
@@ -147,8 +156,8 @@ img {
 .infosearch {
     background-color: rgba(20, 20, 20, 0.9);
     width: auto;
-    height: 2000px;
     align-content: center;
+    /* padding-top: 180px; */
 }
 
 .databanksearch  {
@@ -167,3 +176,31 @@ img {
 }
 
 /* AQUI TERMINA EL INFOSEARCH */
+
+/* AQUI EMPIEZAN LOS AJUSTES DE CARDS */
+
+.card-img-top{
+  padding: 10px 0px;
+  height: 400px;
+  width: 99%;
+  align-content: center;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.card-img-overlay:hover {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease-in-out;
+  background-color: rgba(20, 20, 20, 1);
+}
+
+.container:hover #overlay {
+  opacity: 1;
+}

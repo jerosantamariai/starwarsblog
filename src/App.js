@@ -7,6 +7,7 @@ import InfoSearch from './components/infosearch';
 import People from './views/people';
 import Vehicles from './views/vehicles';
 import Planets from './views/planets';
+import Transports from './views/vehiclestransports'
 
 
 const App = props => {
@@ -15,17 +16,15 @@ const App = props => {
             <Header />
             <div className="infosearch">
                 <InfoSearch />
-                </div>
                 <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route exact path="/vehicles/:vehicle" component={Transports} />
                     <Route exact path="/people" component={People} />
                     <Route exact path="/vehicles" component={Vehicles} />
-                    <Route exact path="/planets" component={Planets} />  
-                
-
-
-                <Route render={() => <h1>Not Found</h1>} />
-            </Switch>
+                    <Route exact path="/planets" component={Planets} />
+                    <Route render={() => <h1 id="undefined">Not Found</h1>} />
+                </Switch>
+            </div>
         </BrowserRouter>
     )
 }

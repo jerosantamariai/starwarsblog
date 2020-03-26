@@ -1,5 +1,6 @@
 import React, { useContext } from 'react';
 import { Context } from '../store/appContext';
+import { Link } from 'react-router-dom';
 
 
 const Vehicles = props => {
@@ -9,30 +10,43 @@ const Vehicles = props => {
         <>
 
             <div className="container">
-                <div className="row">
+
+                <div class="card-group">
                     <div className="row">
                         {
                             !!store.vehicles ?
                                 store.vehicles.results.map((transport, i) => {
-                                    const img = transport.name.split(" ").join("-").toLowerCase()+".jpg";
+                                    const img = transport.name.split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
-                                        < div className="card text-white bg-dark" key={i}>
-                                            <img src={"img/vehicles/"+img} className="card-img-top" alt={"image of "+img} />
-                                            <div className="card-body">
-                                                <h5 className="card-title">{transport.name}</h5>
-                                                <p className="card-text">Model: {transport.model}</p>
+                                        <>
+                                            <div className="card text-white bg-dark col-3 mb-3" key={i}>
+
+                                                <img src={"img/vehicles/" + img} className="card-img-top" alt={"image of " + img} />
+                                                {/* <div class="card-img-overlay">
+                                                <h5 class="card-title">Card title</h5>
+                                                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                                <p class="card-text">Last updated 3 mins ago</p> */}
+
+                                                <div className="card-body">
+                                                    <h5 className="card-title">{transport.name}</h5>
+                                                    <p className="card-text">Model: {transport.model}</p>
+                                                    <p>Observations: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                                                    <Link to={"/vehicles/"+transport.name} className="btn btn-primary">Go to...></Link>
+                                                </div>
                                             </div>
-                                        </div>
+                                        </>
+                                        
                                     )
                                 })
-                                :(
-                                <div className="spinner-border" role="status">
-                                    <span className="sr-only">Loading...</span>
-                                </div>
+                                : (
+                                    <div class="text-center" id="undefined">
+                                        <div className="spinner-grow text-light" role="status">
+                                        </div>
+                                    </div>
                                 )
                         }
-
                     </div>
+
                 </div>
             </div>
         </>
