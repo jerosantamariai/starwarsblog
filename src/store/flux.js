@@ -4,6 +4,7 @@ const getState = ({getStore, getActions, setStore}) => {
             people: null,
             planets: null,
             vehicles: null,
+            films: null,
         },
         actions: {
             getPeople: url => {
@@ -51,6 +52,23 @@ const getState = ({getStore, getActions, setStore}) => {
                     .then(data => {
                         setStore({
                             vehicles: data
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+            },
+            getFilms: url => {
+                fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'content-type': 'application/json'
+                    }
+                })
+                    .then(resp => resp.json())
+                    .then(data => {
+                        setStore({
+                            films: data
                         });
                     })
                     .catch(error => {

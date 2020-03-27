@@ -10,6 +10,7 @@ import Planets from './views/planets';
 import Transports from './views/vehiclestransports';
 import Person from './views/peoplepersons';
 import Places from './views/planetplaces';
+import Films from './views/films';
 
 
 const App = props => {
@@ -26,6 +27,7 @@ const App = props => {
                     <Route exact path="/people" component={People} />
                     <Route exact path="/vehicles" component={Vehicles} />
                     <Route exact path="/planets" component={Planets} />
+                    <Route exact path="/films" component={Films} />
                     <Route render={() => <h1 id="undefined">Not Found</h1>} />
                 </Switch>
             </div>
