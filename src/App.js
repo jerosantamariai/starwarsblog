@@ -11,6 +11,7 @@ import Transports from './views/vehiclestransports';
 import Person from './views/peoplepersons';
 import Places from './views/planetplaces';
 import Films from './views/films';
+import Film from './views/film';
 
 
 const App = props => {
@@ -24,6 +25,7 @@ const App = props => {
                     <Route exact path="/vehicles/:vehicle" component={Transports} />
                     <Route exact path="/people/:person" component={Person} />
                     <Route exact path="/planets/:places" component={Places} />
+                    <Route exact path="/films/:movies" component={Film} />
                     <Route exact path="/people" component={People} />
                     <Route exact path="/vehicles" component={Vehicles} />
                     <Route exact path="/planets" component={Planets} />
