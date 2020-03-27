@@ -10,6 +10,7 @@ const Home = props => {
                 <div className="col-12 mb-3 ml-3">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/91O4hc7ndoL.jpg" id="homeimg" />
                     <img src="https://i.pinimg.com/originals/96/73/da/9673da5d2afc6cbf50d126bebec20b6b.jpg" id="homeimg" />
+                    <img src="https://i.pinimg.com/originals/0b/1c/23/0b1c2307c83e1ebdeed72e41b9a058ad.gif" id="homeimg" />
                     <img src="https://images-na.ssl-images-amazon.com/images/I/81qQy7RUiLL.jpg" id="homeimg" />
                     <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRYOtOp64iXSmTpjSAbKsvUAlT1oQricDMPgWKwhlDgFAKtCDVV" id="homeimg" />
                     <img src="https://i.pinimg.com/originals/2c/e7/f0/2ce7f0f0f99aa610fe3e73db4f2d4f4f.gif" id="homeimg" />

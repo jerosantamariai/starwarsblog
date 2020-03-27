@@ -45,8 +45,9 @@ const Header = props => {
                                 <Link className="nav-link" to="/">HOME</Link>
                                 <Link className="nav-link" to="/films">FILMS</Link>
                                 <Link className="nav-link" to="/people">PEOPLE</Link>
-                                <Link className="nav-link" to="/vehicles">VEHICLES</Link>
+                                <Link className="nav-link" to="/species">SPECIES</Link>
                                 <Link className="nav-link" to="/planets">PLANETS</Link>
+                                <Link className="nav-link" to="/vehicles">VEHICLES</Link>
                                 {/* <a className="nav-link" to="/#">INTERACTIVE</a>
                                 <a className="nav-link" to="/#">COMMUNITY</a>
                                 <a className="nav-link" to="/#">DATABANK</a> */}

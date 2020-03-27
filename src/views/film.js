@@ -23,7 +23,7 @@ const Film = props => {
                                             <div className="row card-group text-white bg-dark mb-3 d-flex justify-content-center" key={i}>
                                                 <div className="col-3 my-auto">
                                                     <img src={"/img/films/" + img} className="card-img-top" alt={"image of " + img} />
-                                                    <Link to={"/people"} className="btn btn-secondary d-flex justify-content-center">Back to Characters!</Link>
+                                                    <Link to={"/films"} className="btn btn-secondary d-flex justify-content-center">Back to Films!</Link>
                                                 </div>
                                                 <div className="col-9 py-4">
                                                     <h5 className="card-title">{film.title}</h5>

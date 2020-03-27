@@ -74,7 +74,24 @@ const getState = ({getStore, getActions, setStore}) => {
                     .catch(error => {
                         console.log(error)
                     })
-            }
+            },
+            getSpecies: url => {
+                fetch(url, {
+                    method: 'GET',
+                    headers: {
+                        'content-type': 'application/json'
+                    }
+                })
+                    .then(resp => resp.json())
+                    .then(data => {
+                        setStore({
+                            species: data
+                        });
+                    })
+                    .catch(error => {
+                        console.log(error)
+                    })
+            },
         }
     }
 }
