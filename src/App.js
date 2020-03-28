@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import Home from './views/home';
 import injectContext from './store/appContext';
@@ -14,14 +14,39 @@ import Films from './views/films';
 import Film from './views/film';
 import Species from './views/species';
 import Specie from './views/specie';
+import Carousel from './components/carousel';
 
 
 const App = props => {
+    const [state, setState] = useState({
+        galery: [
+            {
+                id: 1,
+                image: 'http://placehold.it/1900x1080',
+                title: "First Slide",
+                description: "This is a description for the first slide."
+            },
+            {
+                id: 2,
+                image: 'http://placehold.it/1900x1080',
+                title: "Second Slide",
+                description: "This is a description for the second slide."
+            },
+            {
+                id: 3,
+                image: 'http://placehold.it/1900x1080',
+                title: "Third Slide",
+                description: "This is a description for the third slide."
+            }
+        ]
+    })
+
     return (
         <BrowserRouter>
             <Header />
             <div className="infosearch">
                 <InfoSearch />
+                <Carousel slide={state.galery} />
                 <Switch>
                     <Route exact path="/" component={Home} />
                     <Route exact path="/vehicles/:vehicle" component={Transports} />

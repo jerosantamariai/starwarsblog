@@ -6,6 +6,7 @@ const Home = props => {
     const { name } = store;
     return (
         <>
+            
             <div className="row">
                 <div className="col-12 mb-3 ml-3">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/91O4hc7ndoL.jpg" id="homeimg" />
@@ -26,6 +27,8 @@ const Home = props => {
                     <img src="https://i.giphy.com/8IZCR0wzEIQms.gif" id="homeimg" />
                     <img src="https://vignette.wikia.nocookie.net/starwars/images/4/45/RogueOne-DigiBook.jpg/revision/latest/top-crop/width/300/height/300?cb=20180402205606" id="homeimg" />
                     <img src="https://i.pinimg.com/originals/a9/c8/8d/a9c88d11379fa17ca6b449ec5ce0f60c.jpg" id="homeimg" />
+                    <img src="https://as.com/meristation/imagenes/2019/12/04/noticias/1575491867_446937_1575492034_noticia_normal.jpg" id="homeimg" />
+                    
                 </div>
             </div>
 
