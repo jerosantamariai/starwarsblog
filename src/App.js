@@ -15,6 +15,7 @@ import Film from './views/film';
 import Species from './views/species';
 import Specie from './views/specie';
 import Carousel from './components/carousel';
+import Footer from './views/footer';
 
 
 const App = props => {
@@ -62,6 +63,7 @@ const App = props => {
                     <Route render={() => <h1 id="undefined">Not Found</h1>} />
                 </Switch>
             </div>
+            <Footer />
         </BrowserRouter>
     )
 }
