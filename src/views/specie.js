@@ -18,7 +18,7 @@ const Film = props => {
                             !!store.species ?
                                 store.species.results.map((specie, i) => {
                                     if (JSON.stringify(specie.name) === JSON.stringify(raze)) {
-                                        const img = specie.name.split(" ").join("-").toLowerCase() + ".jpg";
+                                        const img = specie.name.replace(" ' ").split(" ").join("-").toLowerCase() + ".jpg";
                                         return (
                                             <div className="row card-group text-white bg-dark mb-3 d-flex justify-content-center" key={i}>
                                                 <div className="col-3 my-auto">

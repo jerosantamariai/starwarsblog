@@ -18,7 +18,7 @@ const Person = props => {
                             !!store.people ?
                                 store.people.results.map((peoper, i) => {
                                     if (JSON.stringify(peoper.name) === JSON.stringify(peoplename)) {
-                                        const img = peoper.name.split(" ").join("-").toLowerCase() + ".jpg";
+                                        const img = peoper.name.replace("/", "'").split(" ").join("-").toLowerCase() + ".jpg";
                                         return (
                                             <div className="row card-group text-white bg-dark mb-3 d-flex justify-content-center" key={i}>
                                                 <div className="col-3 my-auto">

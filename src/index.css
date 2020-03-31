@@ -199,7 +199,15 @@ img {
   object-fit: cover;
 }
 
+.card-group{
+  width: 1000px;
+  margin: 20px 20px;
+  padding: 20px;
+}
 
+.row-group{
+  width: 1000px;
+}
 
 .card-img-top{
   padding: 10px 0px;
@@ -209,6 +217,12 @@ img {
   border-radius: 15px;
   overflow: auto;
   object-fit: cover;
+}
+
+#container-card{
+  width: 850px;
+
+  
 }
 
 

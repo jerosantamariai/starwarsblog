@@ -15,7 +15,7 @@ const People = props => {
                         {
                             !!store.people ?
                                 store.people.results.map((character, i) => {
-                                    const img = character.name.split(" ").join("-").toLowerCase() + ".jpg";
+                                    const img = character.name.replace("/", "'").split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
                                         < div className="card text-white bg-dark col-3 mb-3" key={i}>
                                             <img src={"img/characters/" + img} className="card-img-top" alt={"image of " + img} />

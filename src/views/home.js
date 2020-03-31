@@ -1,12 +1,35 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import { Context } from '../store/appContext';
+import Carousel from '../components/carousel';
 
 const Home = props => {
     const { store, actions } = useContext(Context);
     const { name } = store;
+    const [state, setState] = useState({
+        galery: [
+            {
+                id: 1,
+                image: 'http://placehold.it/1900x1080',
+                title: "First Slide",
+                description: "This is a description for the first slide."
+            },
+            {
+                id: 2,
+                image: 'http://placehold.it/1900x1080',
+                title: "Second Slide",
+                description: "This is a description for the second slide."
+            },
+            {
+                id: 3,
+                image: 'http://placehold.it/1900x1080',
+                title: "Third Slide",
+                description: "This is a description for the third slide."
+            }
+        ]
+    })
     return (
         <>
-            
+            <Carousel slide={state.galery} />
             <div className="row">
                 <div className="col-12 mb-3 ml-3">
                     <img src="https://images-na.ssl-images-amazon.com/images/I/91O4hc7ndoL.jpg" id="homeimg" />
@@ -28,6 +51,7 @@ const Home = props => {
                     <img src="https://vignette.wikia.nocookie.net/starwars/images/4/45/RogueOne-DigiBook.jpg/revision/latest/top-crop/width/300/height/300?cb=20180402205606" id="homeimg" />
                     <img src="https://i.pinimg.com/originals/a9/c8/8d/a9c88d11379fa17ca6b449ec5ce0f60c.jpg" id="homeimg" />
                     <img src="https://as.com/meristation/imagenes/2019/12/04/noticias/1575491867_446937_1575492034_noticia_normal.jpg" id="homeimg" />
+                    <img src="https://melbournesymphonyorchestra-assets.s3.amazonaws.com/assets/Image/4365.jpg" id="homeimg" />
                     
                 </div>
             </div>
