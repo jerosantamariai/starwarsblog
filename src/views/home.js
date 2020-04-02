@@ -50,13 +50,53 @@ const Home = props => {
                     <img src="https://i.giphy.com/8IZCR0wzEIQms.gif" id="homeimg" />
                     <img src="https://vignette.wikia.nocookie.net/starwars/images/4/45/RogueOne-DigiBook.jpg/revision/latest/top-crop/width/300/height/300?cb=20180402205606" id="homeimg" />
                     <img src="https://i.pinimg.com/originals/a9/c8/8d/a9c88d11379fa17ca6b449ec5ce0f60c.jpg" id="homeimg" />
+                    <img src="https://66.media.tumblr.com/afd3ca95335d82dc03d3dd9165145a63/ca696c8b899cfcb1-c8/s500x750/882f1d461e7cc2d128db69147ea10391a6a6dca4.gifv" id="homeimg" />
                     <img src="https://as.com/meristation/imagenes/2019/12/04/noticias/1575491867_446937_1575492034_noticia_normal.jpg" id="homeimg" />
                     <img src="https://melbournesymphonyorchestra-assets.s3.amazonaws.com/assets/Image/4365.jpg" id="homeimg" />
-                    
+
                 </div>
             </div>
+            {/* 
+            RECICLED CODE
+            <div className="row">
+                {
+                    $("div.blog-post").slice(0, 4).show();
+          $("#load-more-post").on('click', function (e) {
+                    e.preventDefault();
+             $("div.blog-post:hidden").slice(0, 1).slideDown(300);
+             if ($("div.blog-post:hidden").length == 0) {
+                    $('#post-end-message').html('<div class="end">End</div>').fadeIn(800);
+             $("#load-more-post").fadeOut(100);
+              }
+             });
+                <div class="col-md-12 text-center">
+                    <a href="javascript:void(0)" id="load-more-post" class="load-more-button">Load</a>
+                    <div id="post-end-message"></div>
+                </div>
+                }
+            </div> */}
 
 
+            {/* 
+            
+            MY ADVANCE
+            <div className="row">
+                {
+                    $("img#homeimg").slice(0, 4).show();
+                    $("#load-more-post").on('click', function (e) {
+                    e.preventDefault();
+                       $("img#homeimg:hidden").slice(0, 1).slideDown(300);
+                       if ($("img#homeimg:hidden").length == 0) {
+                    $('#post-end-message').html('<div class="end">End</div>').fadeIn(800);
+                       $("#load-more-post").fadeOut(100);
+                        }
+                       });
+                <div className="col-md-12 text-center">
+                    <a href="javascript:void(0)" id="load-more-post" className="load-more-button">Load</a>
+                    <div id="post-end-message"></div>
+                </div>
+                }
+            </div> */}
         </>
     )
 }
