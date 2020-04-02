@@ -38,6 +38,38 @@ const People = props => {
                         }
                     </div>
                 </div>
+                <div className="row pb-5" id="moreinfo">
+                    <div className="col-md-6 offset-3 d-flex justify-content-between">
+                        {
+                            !!store.people &&
+                                store.people.previous !== null ?
+                                (
+                                    <button className="btn btn-dark btn-md"
+                                        onClick={() => actions.getPeople(store.people.previous)}>
+                                        <i class="fa fa-arrow-left"></i> Previous
+                                    </button>
+                                ) : (
+                                    <span className="btn btn-dark btn-md disabled">
+                                        <i class="fa fa-arrow-left"></i> Previous
+                                    </span>
+                                )
+                        }
+                        {
+                            !!store.people &&
+                                store.people.next !== null ?
+                                (
+                                    <button className="btn btn-dark btn-md"
+                                        onClick={() => actions.getPeople(store.people.next)}>
+                                        Next <i class="fa fa-arrow-right"></i>
+                                    </button>
+                                ) : (
+                                    <span className="btn btn-dark btn-md disabled">
+                                        Next <i class="fa fa-arrow-right"></i>
+                                    </span>
+                                )
+                        }
+                    </div>
+                </div>
             </div>
         </>
     )
