@@ -11,7 +11,7 @@ const Species = props => {
 
             <div className="container">
                 <div className="card-group">
-                    <div className="row" id="row-group">
+                    <div className="row d-flex justify-content-center ml-5" id="row-group">
                         {
                             !!store.species ?
                                 store.species.results.map((specie, i) => {

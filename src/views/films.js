@@ -11,7 +11,7 @@ const Films = props => {
 
             <div className="container">
                 <div class="card-group">
-                    <div className="row">
+                    <div className="row d-flex justify-content-center ml-5">
                         {
                             !!store.films ?
                                 store.films.results.map((film, i) => {

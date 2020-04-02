@@ -10,7 +10,7 @@ const Planets = props => {
         <>
             <div className="container">
                 <div class="card-group">
-                    <div className="row">
+                    <div className="row d-flex justify-content-center ml-5">
                         {
                             !!store.planets ?
                                 store.planets.results.map((star, i) => {

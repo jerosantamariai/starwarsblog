@@ -99,10 +99,11 @@ img {
   text-decoration: none !important;
   color: rgb(170,170,170);
 }
+
 .userpath a:hover{
-  
   color: rgb(220,220,220);
 }
+
 .inputsearch::placeholder {
   color: red;
 }

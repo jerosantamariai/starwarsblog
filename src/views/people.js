@@ -11,7 +11,7 @@ const People = props => {
 
             <div className="container">
                 <div class="card-group">
-                    <div className="row">
+                    <div className="row d-flex justify-content-center ml-5">
                         {
                             !!store.people ?
                                 store.people.results.map((character, i) => {
