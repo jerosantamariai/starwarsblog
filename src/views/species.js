@@ -38,6 +38,38 @@ const Species = props => {
                         }
                     </div>
                 </div>
+                <div className="row pb-5" id="moreinfo">
+                    <div className="col-md-6 offset-3 d-flex justify-content-between">
+                        {
+                            !!store.species &&
+                                store.species.previous !== null ?
+                                (
+                                    <button className="btn btn-dark btn-md"
+                                        onClick={() => actions.getSpecies(store.species.previous)}>
+                                        <i class="fa fa-arrow-left"></i> Previous
+                                    </button>
+                                ) : (
+                                    <span className="btn btn-dark btn-md disabled">
+                                        <i class="fa fa-arrow-left"></i> Previous
+                                    </span>
+                                )
+                        }
+                        {
+                            !!store.species &&
+                                store.species.next !== null ?
+                                (
+                                    <button className="btn btn-dark btn-md"
+                                        onClick={() => actions.getSpecies(store.species.next)}>
+                                        Next <i class="fa fa-arrow-right"></i>
+                                    </button>
+                                ) : (
+                                    <span className="btn btn-dark btn-md disabled">
+                                        Next <i class="fa fa-arrow-right"></i>
+                                    </span>
+                                )
+                        }
+                    </div>
+                </div>
             </div>
         </>
     )
