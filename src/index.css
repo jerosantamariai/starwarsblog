@@ -180,6 +180,10 @@ img {
 
 /* AQUI EMPIEZAN LOS AJUSTES DE CARDS */
 
+#carouselExampleIndicators{
+  width: 100%;
+}
+
 .carousel-item {
   height: 65vh;
   min-height: 300px;
