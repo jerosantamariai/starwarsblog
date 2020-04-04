@@ -9,7 +9,7 @@ const Planets = props => {
     return (
         <>
             <div className="container">
-                <div class="card-group">
+                <div className="card-group">
                     <div className="row d-flex justify-content-center ml-5">
                         {
                             !!store.planets ?
