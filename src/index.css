@@ -172,7 +172,8 @@ img {
 }
 
 .firsttitle {
-  color: white;
+  color: rgb(200,144,68);
+  text-shadow: 4px 4px 4px #aaa;
   padding-left: 130px;
 }
 
@@ -185,7 +186,7 @@ img {
 }
 
 .carousel-item {
-  height: 65vh;
+  height: 300px;
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
