@@ -1,7 +1,7 @@
 import React, { useContext, useState } from 'react';
 import { Context } from '../store/appContext';
 import Carousel from '../components/carousel';
-import Collage from './collage';
+import Collage from '../components/collage';
 
 const Home = props => {
     const { store, actions } = useContext(Context);

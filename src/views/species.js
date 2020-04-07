@@ -15,7 +15,7 @@ const Species = props => {
                         {
                             !!store.species ?
                                 store.species.results.map((specie, i) => {
-                                    const img = specie.name.replace(" ' ", " - ").split(" ").join("-").toLowerCase() + ".jpg";
+                                    const img = specie.name.replace(" ' ").split(" ").join("-").toLowerCase() + ".jpg";
                                     return (
                                         < div className="card text-white bg-dark col-3 mb-3" key={i} id="container-card">
                                             <img src={"img/species/" + img} className="card-img-top" alt={"image of " + img} />

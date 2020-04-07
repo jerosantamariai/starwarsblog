@@ -186,13 +186,15 @@ img {
 }
 
 .carousel-item {
-  height: 300px;
+  
   min-height: 300px;
   background: no-repeat center center scroll;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  width: 100%;
+  
 }
 
 #homeimg {
