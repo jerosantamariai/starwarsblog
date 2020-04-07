@@ -114,6 +114,35 @@ img {
   opacity: 0.3;
 }
 
+/* End Form CSS */
+
+.head{
+  background-color: transparent;
+  text-align: center;
+  padding: 30px;
+  color: white;
+}
+
+#survey-form{
+  background-color: transparent;
+  justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  min-height:100%;
+  background-size:cover;
+  box-shadow:inset 0 0 0 2000px rgba(40, 40, 71, 0.5);
+  color: white;
+  border-radius: 5px;
+  
+}
+
+.container .form-group{
+  margin-top: 20px;
+}
+
+/* End Form CSS */
+
+
 /* Navbar */
 
 .navbar #centerbar {
