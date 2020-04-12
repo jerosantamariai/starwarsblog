@@ -28,7 +28,13 @@ const SignUpForm = props => {
                                         <input type="email" className="form-control" id="email" placeholder="Enter your Email" required/>
                                         <div className="invalid-feedback">
                                             Please choose a correct email.
-                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div className="form-group row">
+                                    <label for="password" className="col-sm-2 col-form-label">Password</label>
+                                    <div className="col-sm-12">
+                                        <input type="text" className="form-control" id="name" placeholder="Enter your password" required/>
                                     </div>
                                 </div>
                                 <div className="form-group row">
