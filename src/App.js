@@ -16,14 +16,21 @@ import Species from './views/species';
 import Specie from './views/specie';
 import Footer from './views/footer';
 import SignUpForm from './views/signupform';
+import PopSignUp from './components/poplogin';
 
 
 const App = props => {
-    
+    // const showModal = () => {
+
+    // }
 
     return (
         <BrowserRouter>
             <Header />
+            {/* {
+                !!
+                <PopSignUp />
+            } */}
             <div className="infosearch">
                 <InfoSearch />
                 <Switch>

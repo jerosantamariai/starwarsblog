@@ -2,6 +2,7 @@ import React, { useContext, useState } from 'react';
 import { Context } from '../store/appContext';
 import Carousel from '../components/carousel';
 import Collage from '../components/collage';
+import TheLast from '../components/thelast';
 
 const Home = props => {
     const { store, actions } = useContext(Context);
@@ -59,7 +60,7 @@ const Home = props => {
                     Collage.length > 8 * multiplicador ? (<div className="btn btn-dark mb-4" onClick={() => setMultiplicador(multiplicador + 1)}>More...</div>) : null
                 }
             </div>
-
+            <TheLast />
         </>
     )
 }
