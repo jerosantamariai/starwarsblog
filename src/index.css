@@ -116,6 +116,10 @@ img {
 
 /* Start Form CSS */
 
+.boxsurvey{
+  padding-bottom: 40px;
+}
+
 .head{
   background-color: transparent;
   text-align: center;
