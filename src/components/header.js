@@ -2,6 +2,7 @@ import React from 'react';
 import { Link } from "react-router-dom";
 
 
+
 const Header = props => {
     return (
         <>
@@ -33,7 +34,7 @@ const Header = props => {
                             <div className="row">
                                 <div className="col-6"></div>
                                 <div className="col-6">
-                                    <p className="userpath"><Link className="login" to="/#">LOG IN</Link>      /    /       <Link className="signup" to="./entryform.js">SIGN UP</Link></p>
+                                    <p className="userpath"><Link className="login" to="/#">LOG IN</Link>      /    /       <Link className="signup" to="/signupform">SIGN UP</Link></p>
                                 </div>
                             </div>
                         </div>

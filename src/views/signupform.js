@@ -1,9 +1,7 @@
 import React from 'react';
-import { Context } from '../store/appContext';
-import { Link } from 'react-router-dom';
 
 
-const Entryform = props => {
+const SignUpForm = props => {
 
     return (
         <>
@@ -13,7 +11,7 @@ const Entryform = props => {
                 </h1>
                 <p id="description"><i>Thank you for taking the time to help us improve the platform</i></p>
             </div>
-            <div className="container col-7">
+            <div className="container col-7" id="boxsurvey">
                 <div className="row" id="survey-form">
                     <div className="subcontainer col-md-11">
                         <form>
@@ -188,4 +186,4 @@ const Entryform = props => {
 }
 
 
-export default Entryform;
+export default SignUpForm;

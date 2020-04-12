@@ -25,7 +25,7 @@ export default [
     "https://nerdmacia.cl/wp-content/uploads/2015/05/gif-animados-peliculas-clasicas-star-wars-19.gif",
     "https://gdb.voanews.com/576D7B97-A83A-477C-B8FE-5F0FB4B6B639_w408_r1_s.jpg",
     "https://www.infobae.com/new-resizer/UH1uGp-UoZ2S08Z83MuejC9F1dc=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/447YYSRO6NGNPDT5N6ZCQXNPCQ.png",
-    // "",
+    "https://media.giphy.com/media/3o7abB06u9bNzA8lu8/200.gif",
     // "",
     // "",
     // "",

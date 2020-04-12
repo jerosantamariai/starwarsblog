@@ -15,6 +15,7 @@ import Film from './views/film';
 import Species from './views/species';
 import Specie from './views/specie';
 import Footer from './views/footer';
+import SignUpForm from './views/signupform';
 
 
 const App = props => {
@@ -27,6 +28,7 @@ const App = props => {
                 <InfoSearch />
                 <Switch>
                     <Route exact path="/" component={Home} />
+                    <Route exact path="/signupform" component={SignUpForm} />
                     <Route exact path="/vehicles/:vehicle" component={Transports} />
                     <Route exact path="/people/:person" component={Person} />
                     <Route exact path="/planets/:places" component={Places} />

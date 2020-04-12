@@ -114,7 +114,7 @@ img {
   opacity: 0.3;
 }
 
-/* End Form CSS */
+/* Start Form CSS */
 
 .head{
   background-color: transparent;
@@ -138,6 +138,7 @@ img {
 
 .container .form-group{
   margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 /* End Form CSS */
