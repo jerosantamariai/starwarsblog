@@ -27,7 +27,7 @@ export default [
     "https://www.infobae.com/new-resizer/UH1uGp-UoZ2S08Z83MuejC9F1dc=/750x0/filters:quality(100)/arc-anglerfish-arc2-prod-infobae.s3.amazonaws.com/public/447YYSRO6NGNPDT5N6ZCQXNPCQ.png",
     "https://media.giphy.com/media/3o7abB06u9bNzA8lu8/200.gif",
     "https://www.aceroymagia.com/Images/articulo/lampara-death-star-starwars/01-Lampara-Death-Star-StarWars.jpg",
-    // "",
+    "https://culturawarsie.files.wordpress.com/2018/03/swrblsfnlssn4fnl.jpg?w=816",
     // "",
     // "",
     // "",
