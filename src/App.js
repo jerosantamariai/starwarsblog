@@ -27,10 +27,10 @@ const App = props => {
     return (
         <BrowserRouter>
             <Header />
-            {/* {
+            {
                 !!
                 <PopSignUp />
-            } */}
+            }
             <div className="infosearch">
                 <InfoSearch />
                 <Switch>

@@ -1,4 +1,5 @@
 import React from 'react';
+import validar from 'main';
 
 
 const SignUpForm = props => {
