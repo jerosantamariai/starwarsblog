@@ -7,6 +7,7 @@ const Film = props => {
     const { store, actions } = useContext(Context);
     const { films } = store;
     const movie = props.match.params.movies;
+    console.log(movie)
     return (
         <>
 
