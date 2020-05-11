@@ -11,7 +11,7 @@ const getState = ({getStore, getActions, setStore}) => {
                 fetch(url, {
                     method: 'GET',
                     headers: {
-                        'content-type': 'application/json'
+                        'Content-Type': 'application/json'
                     }
                 })
                     .then(resp => resp.json())
@@ -24,11 +24,29 @@ const getState = ({getStore, getActions, setStore}) => {
                         console.log(error)
                     })
             },
+            // getPeople: async url => {
+            //     console.log(url)
+            //     try {
+            //         const all = await fetch(url, {
+            //             method: "GET",
+            //             headers: { "Content-Type": "application/json" }
+            //         })
+            //         console.log(all)
+            //         const data = await all.json()
+            //         console.log(all)
+            //         setStore({
+            //             people:data
+            //         })
+            //     }
+            //     catch (error) {
+            //         console.log(error)
+            //     }
+            // },
             getPlanets: url => {
                 fetch(url, {
                     method: 'GET',
                     headers: {
-                        'content-type': 'application/json'
+                        'Content-Type': 'application/json'
                     }
                 })
                     .then(resp => resp.json())
@@ -45,7 +63,7 @@ const getState = ({getStore, getActions, setStore}) => {
                 fetch(url, {
                     method: 'GET',
                     headers: {
-                        'content-type': 'application/json'
+                        'Content-Type': 'application/json'
                     }
                 })
                     .then(resp => resp.json())
@@ -62,7 +80,7 @@ const getState = ({getStore, getActions, setStore}) => {
                 fetch(url, {
                     method: 'GET',
                     headers: {
-                        'content-type': 'application/json'
+                        'Content-Type': 'application/json'
                     }
                 })
                     .then(resp => resp.json())
@@ -79,7 +97,7 @@ const getState = ({getStore, getActions, setStore}) => {
                 fetch(url, {
                     method: 'GET',
                     headers: {
-                        'content-type': 'application/json'
+                        'Content-Type': 'application/json'
                     }
                 })
                     .then(resp => resp.json())
