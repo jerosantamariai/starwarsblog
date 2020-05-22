@@ -46,7 +46,7 @@ export default [
     "https://i.pinimg.com/originals/a3/d0/85/a3d0850330b4ec251d9341e18bec2180.jpg",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSrUHO2q8QAwiB_ujn-EOc6yqvd6ChSHilKEDsRL-xmcmPaM0ja&usqp=CAU",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTPe4N93myKe7NHvwj9afZ44ADgrgR4m1mIi5L8gDJgelzlbua1&usqp=CAU",
-    // "",
+    "https://media.metrolatam.com/2019/10/14/starwars-a8837663f40a21792f11c176544d5ffc-1200x800.jpg",
     // "",
     // "",
     // "",
