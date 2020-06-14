@@ -53,7 +53,7 @@ export default [
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQR26BtdJPTvs6St_JyyO8jOTlVmyaf7816LGo7bUG-bNNvibxe&usqp=CAU",
     "https://cdn2.unrealengine.com/Fortnite%2Fblog%2Fthe-force-is-strong-with-fortnite%2FNew2%2F11BR_Galileo_Screen_KyloRen_NewsHeader-1920x1080-aaea4ba68c85cca00a915974a4cd6ec46f5a0dbd.jpg",
     "https://www.elcomercio.com/files/article_main/uploads/2019/12/22/5dff9d0bd98ec.jpeg",
-    // "",
+    "https://media3.giphy.com/media/3h2lUwrZKilQKbAK6f/giphy.gif",
     // "",
     // "",
     // "",
