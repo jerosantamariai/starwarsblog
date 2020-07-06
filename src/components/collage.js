@@ -55,7 +55,7 @@ export default [
     "https://www.elcomercio.com/files/article_main/uploads/2019/12/22/5dff9d0bd98ec.jpeg",
     "https://media3.giphy.com/media/3h2lUwrZKilQKbAK6f/giphy.gif",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQrs_ra0ecZwPYnaqc8idOqzGkAJt0DStaM5oUdt9L1EkV02UzZ&usqp=CAU",
-    // "",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRPVu38kG3u8kaMHVidyMpo3fdoaFOzRVRoFg&usqp=CAU",
     // "",
     // "",
     // "",
