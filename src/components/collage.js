@@ -73,7 +73,7 @@ export default [
     "https://i.pinimg.com/originals/60/75/df/6075df630d773f4edbb13d41308563c6.jpg",
     "https://i.pinimg.com/originals/8b/44/9f/8b449fe29db3da4a0e4f1c2288157de0.jpg",
     "https://vignette.wikia.nocookie.net/es.starwars/images/3/31/Gungan_NEGAS.jpg/revision/latest/scale-to-width-down/340?cb=20160220224404",
-    // "",
+    "https://lafuerzanoticias.files.wordpress.com/2018/10/mustafar-tall.jpg?w=1536&h=768&crop=1",
     // "",
     // "",
     // "",
