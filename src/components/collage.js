@@ -81,7 +81,7 @@ export default [
     "https://i.pinimg.com/originals/e0/69/6b/e0696bfea2432e0404e36f8abb4a0261.jpg",
     "https://lumiere-a.akamaihd.net/v1/images/image_3f4de5de.jpeg?region=0%2C84%2C1920%2C958",
     "https://los40.cl/wp-content/uploads/2018/08/31-actualidad-1535728705_304557_1535728833_noticia_normal.jpg",
-    // "",
+    "https://images-na.ssl-images-amazon.com/images/I/71RloLKIIaL._AC_SY879_.jpg",
     // "",
     // "",
     // "",
