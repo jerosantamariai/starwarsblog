@@ -97,7 +97,7 @@ export default [
     "https://hipertextual.com/files/2015/11/Star-Wars-Battlefront.jpg",
     "https://www.sideshow.com/storage/product-images/905873/the-mandalorian-and-the-child-deluxe_star-wars_feature.png",
     "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQR3wd_E_jKeOtPhNjPaA-uVZ5JuNaGUw99qw&usqp=CAU",
-    // "",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSpqKhhqBIlnz3q67PFYSfC_YQOoVTYXfzqeQ&usqp=CAU",
     // "",
     // "",
     // "",
