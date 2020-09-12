@@ -102,7 +102,7 @@ export default [
     "https://www.latercera.com/resizer/3LE3rsSbcD-NwnRQzHYnOm6GeXk=/900x600/smart/arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/6WVGPP6PFZCTTMCN2XG5IGZ2RQ.jpg",
     "https://www.sideshow.com/storage/product-images/903314/x-wing-starfighter_star-wars_feature.jpg",
     "https://www.nydailynews.com/resizer/B1UsyjNuk_2eqx2dANwRih6Qq2o=/1200x794/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/YS7KPBZPLMZ7VUB3SFB722UYYA.jpg",
-    // "",
+    "https://pm1.narvii.com/6326/18e46fb5aa3c13a0d8e0e7418d5f451f33fb9015_hq.jpg",
     // "",
     // "",
     // "",
