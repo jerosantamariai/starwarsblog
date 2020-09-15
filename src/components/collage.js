@@ -105,7 +105,7 @@ export default [
     "https://pm1.narvii.com/6326/18e46fb5aa3c13a0d8e0e7418d5f451f33fb9015_hq.jpg",
     "https://i.stack.imgur.com/4OxV5.jpg",
     "https://starwarsblog.starwars.com/wp-content/uploads/sites/6/2015/11/rebel-symbol.jpg",
-    // "",
+    "https://www.lafosadelrancor.com/wp-content/uploads/2016/08/mon-mothma.jpg",
     // "",
     // "",
     // "",
