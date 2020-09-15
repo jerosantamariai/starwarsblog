@@ -104,7 +104,7 @@ export default [
     "https://www.nydailynews.com/resizer/B1UsyjNuk_2eqx2dANwRih6Qq2o=/1200x794/top/arc-anglerfish-arc2-prod-tronc.s3.amazonaws.com/public/YS7KPBZPLMZ7VUB3SFB722UYYA.jpg",
     "https://pm1.narvii.com/6326/18e46fb5aa3c13a0d8e0e7418d5f451f33fb9015_hq.jpg",
     "https://i.stack.imgur.com/4OxV5.jpg",
-    // "",
+    "https://starwarsblog.starwars.com/wp-content/uploads/sites/6/2015/11/rebel-symbol.jpg",
     // "",
     // "",
     // "",
