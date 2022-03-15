@@ -128,7 +128,7 @@ export default [
     "https://i0.wp.com/www.play-asia.com/blog/wp-content/uploads/2019/12/bigNews_blog_preorder-1.jpg?resize=720%2C360&ssl=1",
     "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/06/star-wars-squadrons-1966881.jpg",
     "https://www.cinemascomics.com/wp-content/uploads/2022/01/the-mandalorian-grogu-star-wars-960x720.jpg?mrf-size=m",
-    // "",
+    "https://media.vandalsports.com/i/640x360/3-2022/2022310171353_1.jpg",
     // "",
     // "",
     // "",
