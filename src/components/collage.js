@@ -129,7 +129,7 @@ export default [
     "https://cdn.hobbyconsolas.com/sites/navi.axelspringer.es/public/media/image/2020/06/star-wars-squadrons-1966881.jpg",
     "https://www.cinemascomics.com/wp-content/uploads/2022/01/the-mandalorian-grogu-star-wars-960x720.jpg?mrf-size=m",
     "https://media.vandalsports.com/i/640x360/3-2022/2022310171353_1.jpg",
-    // "",
+    "https://www.google.com/search?q=star%20wars&tbm=isch&hl=es-419&tbs=qdr:m&rlz=1C5CHFA_enCL954CL954&sa=X&ved=0CAQQpwVqFwoTCJDO6Yv1xvYCFQAAAAAdAAAAABAC&biw=1440&bih=789#imgrc=F1yqnFiskph29M",
     // "",
     // "",
     // "",
