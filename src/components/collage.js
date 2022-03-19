@@ -131,7 +131,7 @@ export default [
     "https://media.vandalsports.com/i/640x360/3-2022/2022310171353_1.jpg",
     "https://www.google.com/search?q=star%20wars&tbm=isch&hl=es-419&tbs=qdr:m&rlz=1C5CHFA_enCL954CL954&sa=X&ved=0CAQQpwVqFwoTCJDO6Yv1xvYCFQAAAAAdAAAAABAC&biw=1440&bih=789#imgrc=F1yqnFiskph29M",
     "https://sm.ign.com/ign_es/news/s/star-wars-/star-wars-eclipse-dev-says-it-cant-have-been-delayed-because_kzkt.jpg",
-    // "",
+    "https://i1.wp.com/codigoespagueti.com/wp-content/uploads/2022/03/chistopher-lloyd-the-mandalorian.jpg?fit=1280%2C720&quality=80&ssl=1",
     // "",
     // "",
     // "",
